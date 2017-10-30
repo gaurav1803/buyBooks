@@ -1,0 +1,56 @@
+b 
+{
+  color: blue;
+}
+/*h1{
+    float: left;
+}*/
+
+
+/*input[type=text]{
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    //padding-right: 50px; 
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 85%;
+}*/
+
+button  {
+            background-color: #70e5a2;
+            color: #0e0707;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 10%;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+           
+        }
+.logout {
+        float: right;
+        margin-right: 60px;
+        
+
+        
+    }
+.cart {
+        float: right;
+        margin-right: 10px;
+        
+
+        
+    }
+    

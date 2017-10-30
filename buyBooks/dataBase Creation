@@ -1,0 +1,27 @@
+1. create book_kart DB;
+2.use DB as book_kart;
+3.create table.
+	i). users----> column---> users_id (primary_key)
+				  fname
+				  lname
+				  uname
+				  email
+				  dob
+				  pass
+				  is_admin(by default 1)
+				  signup_at (timestamp)
+	ii).books----> column-->id (primary_key)
+				title
+				discription
+				price
+				image_name
+				image_path(images/{image name})
+				upload_at(timestamp)
+	
+	iii). books_order---->column--->order_id (primary_key)
+					users_id (foreign_key){users(users_id)}
+					books_id (foreign_key){books(books_id)}
+					books_title
+					books_path
+					
+				
